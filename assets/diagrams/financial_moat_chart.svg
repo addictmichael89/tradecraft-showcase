@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="480" viewBox="0 0 1050 480">
+  <defs>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1050" height="480" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Left Side: Traditional Cloud EdTech (The Trap) -->
+  <g transform="translate(40, 35)">
+    <rect width="460" height="410" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" filter="url(#cardShadow)"/>
+    <rect width="460" height="40" rx="8" fill="#FEE2E2"/>
+    <rect y="30" width="460" height="10" fill="#FEE2E2"/>
+    <text x="20" y="26" font-family="'Liberation Sans', sans-serif" font-size="15" font-weight="800" fill="#991B1B">TRADITIONAL CLOUD EDTECH (THE MARGIN TRAP)</text>
+
+    <!-- Points -->
+    <g transform="translate(25, 65)">
+      <circle cx="10" cy="12" r="5" fill="#EF4444"/>
+      <text x="25" y="16" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Cloud API Token Tolls</text>
+      <text x="25" y="34" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Pays OpenAI / AWS per question. Higher student usage eats directly into gross margins.</text>
+
+      <circle cx="10" cy="72" r="5" fill="#EF4444"/>
+      <text x="25" y="76" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Cloud Outages Kill Shop Classes</text>
+      <text x="25" y="94" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Metal shop walls and intermittent school Wi-Fi cause disconnects and zero responsiveness.</text>
+
+      <circle cx="10" cy="132" r="5" fill="#EF4444"/>
+      <text x="25" y="136" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Data Compliance &amp; Privacy Risk</text>
+      <text x="25" y="154" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Student voice data and institutional metrics piped into third-party cloud corporate databases.</text>
+
+      <circle cx="10" cy="192" r="5" fill="#EF4444"/>
+      <text x="25" y="196" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Company Carries The Cloud Bill</text>
+      <text x="25" y="214" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Startup founders must constantly fundraise just to pay AWS server invoices.</text>
+
+      <!-- Gross Margin Callout -->
+      <g transform="translate(0, 260)">
+        <rect width="410" height="60" rx="6" fill="#FEF2F2" stroke="#FCA5A5"/>
+        <text x="20" y="26" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#991B1B">AVERAGE GROSS MARGIN:</text>
+        <text x="20" y="50" font-family="'Liberation Sans', sans-serif" font-size="24" font-weight="900" fill="#DC2626">40% – 55% <tspan font-size="13" font-weight="600" fill="#7F1D1D">(Declines as usage spikes)</tspan></text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Side: TradeCraft OS Sovereign Architecture -->
+  <g transform="translate(550, 35)">
+    <rect width="460" height="410" rx="8" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" filter="url(#cardShadow)"/>
+    <rect width="460" height="40" rx="8" fill="#E0F2FE"/>
+    <rect y="30" width="460" height="10" fill="#E0F2FE"/>
+    <text x="20" y="26" font-family="'Liberation Sans', sans-serif" font-size="15" font-weight="800" fill="#0369A1">TRADECRAFT OS (SOVEREIGN FINANCIAL MOAT)</text>
+
+    <!-- Points -->
+    <g transform="translate(25, 65)">
+      <circle cx="10" cy="12" r="5" fill="#0284C7"/>
+      <text x="25" y="16" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Zero Cloud Token Tolls</text>
+      <text x="25" y="34" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Inference runs 100% locally on bare metal. Cost per query is literally $0.00.</text>
+
+      <circle cx="10" cy="72" r="5" fill="#0284C7"/>
+      <text x="25" y="76" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">100% Reliable In Shop Environments</text>
+      <text x="25" y="94" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Operates at full speed on local LAN. Sub-50ms voice feedback with zero external dependency.</text>
+
+      <circle cx="10" cy="132" r="5" fill="#0284C7"/>
+      <text x="25" y="136" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">The Hardware Mandate</text>
+      <text x="25" y="154" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Institutions purchase the iron upfront via federal Perkins V or state capital grants.</text>
+
+      <circle cx="10" cy="192" r="5" fill="#0284C7"/>
+      <text x="25" y="196" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Pure Software License Predictability</text>
+      <text x="25" y="214" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">100% recurring annual license revenue with zero infrastructure burn for TradeCraft OS.</text>
+
+      <!-- Gross Margin Callout -->
+      <g transform="translate(0, 260)">
+        <rect width="410" height="60" rx="6" fill="#F0FDF4" stroke="#86EFAC"/>
+        <text x="20" y="26" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#166534">TRADECRAFT OS SOFTWARE MARGIN:</text>
+        <text x="20" y="50" font-family="'Liberation Sans', sans-serif" font-size="24" font-weight="900" fill="#15803D">88% – 94% <tspan font-size="13" font-weight="600" fill="#14532D">(Uncapped query volume)</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

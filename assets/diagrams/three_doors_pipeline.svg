@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340">
+  <defs>
+    <filter id="doorShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="340" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Door 1: TEC Dayton -->
+  <g transform="translate(30, 25)">
+    <rect width="320" height="290" rx="8" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" filter="url(#doorShadow)"/>
+    <rect width="320" height="36" rx="8" fill="#0284C7"/>
+    <rect y="26" width="320" height="10" fill="#0284C7"/>
+    <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">DOOR #1: THE REGIONAL CATALYST</text>
+    
+    <g transform="translate(18, 55)">
+      <text x="0" y="20" font-family="'Liberation Sans', sans-serif" font-size="16" font-weight="800" fill="#0F172A">The Entrepreneurs' Center</text>
+      <text x="0" y="38" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#0284C7">Dayton, OH Hub</text>
+      
+      <line x1="0" y1="52" x2="284" y2="52" stroke="#E2E8F0" stroke-width="1"/>
+      
+      <text x="0" y="74" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• IP Lockdown &amp; Protection</text>
+      <text x="0" y="92" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Establish sovereign trade secrets &amp; patent barriers.</text>
+      
+      <text x="0" y="122" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• Ohio Third Frontier Grants</text>
+      <text x="0" y="140" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Access non-dilutive tech validation capital.</text>
+
+      <text x="0" y="170" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• Entrepreneur Services Network</text>
+      <text x="0" y="188" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Direct mentorship &amp; institutional syndicate introductions.</text>
+
+      <rect y="205" width="284" height="24" rx="4" fill="#E0F2FE"/>
+      <text x="10" y="221" font-family="'JetBrainsMono NF', monospace" font-size="10" font-weight="700" fill="#0369A1">TARGET: LEGAL &amp; VALIDATION CAPITAL</text>
+    </g>
+  </g>
+
+  <!-- Door 2: Career Tech Centers & ABC -->
+  <g transform="translate(390, 25)">
+    <rect width="320" height="290" rx="8" fill="#FFFFFF" stroke="#0F172A" stroke-width="2" filter="url(#doorShadow)"/>
+    <rect width="320" height="36" rx="8" fill="#0F172A"/>
+    <rect y="26" width="320" height="10" fill="#0F172A"/>
+    <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">DOOR #2: INSTITUTIONAL CTE</text>
+    
+    <g transform="translate(18, 55)">
+      <text x="0" y="20" font-family="'Liberation Sans', sans-serif" font-size="16" font-weight="800" fill="#0F172A">Upper Valley CC &amp; ABC Valley</text>
+      <text x="0" y="38" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#0F172A">Vocational &amp; Apprentice Classrooms</text>
+      
+      <line x1="0" y1="52" x2="284" y2="52" stroke="#E2E8F0" stroke-width="1"/>
+      
+      <text x="0" y="74" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• Pilot Classrooms &amp; LOIs</text>
+      <text x="0" y="92" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Letters of Intent for live classroom deployment.</text>
+      
+      <text x="0" y="122" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• Perkins V Federal Funding</text>
+      <text x="0" y="140" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Hardware purchases fully funded via equipment grants.</text>
+
+      <text x="0" y="170" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• NCCER &amp; NEC Integration</text>
+      <text x="0" y="188" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Real-time student progress tracking &amp; credentialing.</text>
+
+      <rect y="205" width="284" height="24" rx="4" fill="#F1F5F9"/>
+      <text x="10" y="221" font-family="'JetBrainsMono NF', monospace" font-size="10" font-weight="700" fill="#0F172A">TARGET: 3 PILOT INSTITUTIONS</text>
+    </g>
+  </g>
+
+  <!-- Door 3: Regional Contractors -->
+  <g transform="translate(750, 25)">
+    <rect width="320" height="290" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="2" filter="url(#doorShadow)"/>
+    <rect width="320" height="36" rx="8" fill="#D97706"/>
+    <rect y="26" width="320" height="10" fill="#D97706"/>
+    <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">DOOR #3: COMMERCIAL TRADE GIANTS</text>
+    
+    <g transform="translate(18, 55)">
+      <text x="0" y="20" font-family="'Liberation Sans', sans-serif" font-size="16" font-weight="800" fill="#0F172A">Rieck, Chapel, Megacity</text>
+      <text x="0" y="38" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#D97706">Industrial Trade Contractors</text>
+      
+      <line x1="0" y1="52" x2="284" y2="52" stroke="#E2E8F0" stroke-width="1"/>
+      
+      <text x="0" y="74" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• Strategic Angel Capital</text>
+      <text x="0" y="92" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">$25k - $100k angel checks from trade owners.</text>
+      
+      <text x="0" y="122" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• Apprentice Up-Skilling</text>
+      <text x="0" y="140" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">After-hours training nodes deployed in union halls.</text>
+
+      <text x="0" y="170" font-family="'Liberation Sans', sans-serif" font-size="12" font-weight="700" fill="#334155">• Direct Pipeline To Hiring</text>
+      <text x="0" y="188" font-family="'Liberation Sans', sans-serif" font-size="11.5" fill="#64748B">Certified graduates with verified Chrono-Sentinel hours.</text>
+
+      <rect y="205" width="284" height="24" rx="4" fill="#FEF3C7"/>
+      <text x="10" y="221" font-family="'JetBrainsMono NF', monospace" font-size="10" font-weight="700" fill="#B45309">TARGET: PILOT HUBS &amp; ANGEL CHECKS</text>
+    </g>
+  </g>
+</svg>

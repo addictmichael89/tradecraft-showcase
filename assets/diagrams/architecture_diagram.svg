@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <defs>
+    <linearGradient id="tierGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1100" height="650" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Tier 1: The Shop Floor & Student Physical Interface -->
+  <g transform="translate(30, 25)">
+    <rect width="1040" height="110" rx="8" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" filter="url(#dropShadow)"/>
+    <rect width="1040" height="28" rx="8" fill="#0284C7"/>
+    <rect y="20" width="1040" height="8" fill="#0284C7"/>
+    <text x="20" y="19" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" letter-spacing="1">TIER 1: PHYSICAL SHOP FLOOR &amp; STUDENT USER INTERFACES</text>
+    
+    <!-- 4 Sub-Cards -->
+    <!-- Card 1 -->
+    <g transform="translate(20, 40)">
+      <rect width="235" height="58" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <text x="12" y="24" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Hands-Free Shop Headset</text>
+      <text x="12" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" fill="#64748B">Jeebes Real-Time Voice Loop</text>
+    </g>
+    <!-- Card 2 -->
+    <g transform="translate(275, 40)">
+      <rect width="235" height="58" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <text x="12" y="24" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Classroom Workstation</text>
+      <text x="12" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" fill="#64748B">DocuAI &amp; Interactive NEC RAG</text>
+    </g>
+    <!-- Card 3 -->
+    <g transform="translate(530, 40)">
+      <rect width="235" height="58" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <text x="12" y="24" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">After-Hours Student Portal</text>
+      <text x="12" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" fill="#64748B">2:00 AM Study Buddy Socratic Tutor</text>
+    </g>
+    <!-- Card 4 -->
+    <g transform="translate(785, 40)">
+      <rect width="235" height="58" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <text x="12" y="24" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Biometric Access Kiosks</text>
+      <text x="12" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" fill="#64748B">Chrono-Sentinel Hour Auditing</text>
+    </g>
+  </g>
+
+  <!-- Connecting Bus Lines -->
+  <g stroke="#0284C7" stroke-width="2" stroke-dasharray="4,4" fill="none">
+    <line x1="150" y1="135" x2="150" y2="175"/>
+    <line x1="410" y1="135" x2="410" y2="175"/>
+    <line x1="660" y1="135" x2="660" y2="175"/>
+    <line x1="910" y1="135" x2="910" y2="175"/>
+  </g>
+
+  <!-- Tier 2: The Six Sovereign Educational Engines -->
+  <g transform="translate(30, 175)">
+    <rect width="1040" height="235" rx="8" fill="#FFFFFF" stroke="#0F172A" stroke-width="2" filter="url(#dropShadow)"/>
+    <rect width="1040" height="28" rx="8" fill="#0F172A"/>
+    <rect y="20" width="1040" height="8" fill="#0F172A"/>
+    <text x="20" y="19" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" letter-spacing="1">TIER 2: THE SIX SOVEREIGN ENGINES (APPLICATION &amp; INFERENCE LAYER)</text>
+
+    <!-- 6 Engine Cards (2 Rows of 3) -->
+    <!-- Engine 1: OMEN & SOS -->
+    <g transform="translate(20, 42)">
+      <rect width="320" height="80" rx="6" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.5"/>
+      <rect width="5" height="80" rx="3" fill="#0284C7"/>
+      <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#0284C7">1. O.M.E.N. &amp; S.O.S.</text>
+      <text x="18" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">Sovereign Swarm Core &amp; Reflex Logic</text>
+      <text x="18" y="64" font-family="'Liberation Sans', sans-serif" font-size="10.5" fill="#64748B">Multi-agent vision eyes, spinal reflex, local memory</text>
+    </g>
+
+    <!-- Engine 2: DocuAI & Local RAG -->
+    <g transform="translate(360, 42)">
+      <rect width="320" height="80" rx="6" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.5"/>
+      <rect width="5" height="80" rx="3" fill="#0284C7"/>
+      <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#0284C7">2. DocuAI &amp; Local RAG</text>
+      <text x="18" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">Dynamic Codebook &amp; Curricula Ingestion</text>
+      <text x="18" y="64" font-family="'Liberation Sans', sans-serif" font-size="10.5" fill="#64748B">Instant vector lookup across 2,000+ NEC/NCCER pages</text>
+    </g>
+
+    <!-- Engine 3: Study Buddy -->
+    <g transform="translate(700, 42)">
+      <rect width="320" height="80" rx="6" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.5"/>
+      <rect width="5" height="80" rx="3" fill="#0284C7"/>
+      <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#0284C7">3. Study Buddy</text>
+      <text x="18" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">The Tireless 2:00 AM Socratic Mentor</text>
+      <text x="18" y="64" font-family="'Liberation Sans', sans-serif" font-size="10.5" fill="#64748B">Scaffolds load calculations &amp; schematics without shortcuts</text>
+    </g>
+
+    <!-- Engine 4: TradeClash -->
+    <g transform="translate(20, 138)">
+      <rect width="320" height="80" rx="6" fill="#F8FAFC" stroke="#D97706" stroke-width="1.5"/>
+      <rect width="5" height="80" rx="3" fill="#D97706"/>
+      <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#D97706">4. TradeClash</text>
+      <text x="18" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">High-Stakes Technical Proving Ground</text>
+      <text x="18" y="64" font-family="'Liberation Sans', sans-serif" font-size="10.5" fill="#64748B">Head-to-head speed &amp; precision codebook arena</text>
+    </g>
+
+    <!-- Engine 5: Jeebes -->
+    <g transform="translate(360, 138)">
+      <rect width="320" height="80" rx="6" fill="#F8FAFC" stroke="#D97706" stroke-width="1.5"/>
+      <rect width="5" height="80" rx="3" fill="#D97706"/>
+      <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#D97706">5. Jeebes</text>
+      <text x="18" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">Zero-Latency Hands-Free Voice Stack</text>
+      <text x="18" y="64" font-family="'Liberation Sans', sans-serif" font-size="10.5" fill="#64748B">openWakeWord + Local Whisper + Kokoro TTS</text>
+    </g>
+
+    <!-- Engine 6: Chrono-Sentinel -->
+    <g transform="translate(700, 138)">
+      <rect width="320" height="80" rx="6" fill="#F8FAFC" stroke="#D97706" stroke-width="1.5"/>
+      <rect width="5" height="80" rx="3" fill="#D97706"/>
+      <text x="18" y="24" font-family="'Liberation Sans', sans-serif" font-size="14" font-weight="800" fill="#D97706">6. Chrono-Sentinel</text>
+      <text x="18" y="44" font-family="'Liberation Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">Biometric Integrity &amp; Verification</text>
+      <text x="18" y="64" font-family="'Liberation Sans', sans-serif" font-size="10.5" fill="#64748B">Instant audit logging for state &amp; federal apprenticeships</text>
+    </g>
+  </g>
+
+  <!-- Connecting Bus Lines -->
+  <g stroke="#0F172A" stroke-width="2" stroke-dasharray="4,4" fill="none">
+    <line x1="280" y1="410" x2="280" y2="450"/>
+    <line x1="550" y1="410" x2="550" y2="450"/>
+    <line x1="820" y1="410" x2="820" y2="450"/>
+  </g>
+
+  <!-- Tier 3: The Hardware Mandate & Sovereign Iron Substrate -->
+  <g transform="translate(30, 450)">
+    <rect width="1040" height="165" rx="8" fill="url(#tierGrad1)" stroke="#38BDF8" stroke-width="2" filter="url(#dropShadow)"/>
+    <rect width="1040" height="28" rx="8" fill="#38BDF8"/>
+    <rect y="20" width="1040" height="8" fill="#38BDF8"/>
+    <text x="20" y="19" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="800" fill="#0F172A" letter-spacing="1">TIER 3: THE SOVEREIGN SUBSTRATE (CUSTOMER HARDWARE MANDATE • ZERO CLOUD TOLLS)</text>
+
+    <!-- 3 Hardware Pillars -->
+    <!-- Pillar 1 -->
+    <g transform="translate(20, 42)">
+      <rect width="320" height="105" rx="6" fill="#1E293B" stroke="#475569"/>
+      <text x="15" y="25" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#38BDF8">Bare-Metal Appliance Node</text>
+      <text x="15" y="45" font-family="'JetBrainsMono NF', monospace" font-size="10.5" fill="#F1F5F9">Proxmox VE / Hardened Linux OS</text>
+      <text x="15" y="65" font-family="'Liberation Sans', sans-serif" font-size="11" fill="#94A3B8">High-performance dedicated enterprise compute deployed directly in school server closets.</text>
+      <text x="15" y="90" font-family="'JetBrainsMono NF', monospace" font-size="10" font-weight="700" fill="#F59E0B">ZERO RECURRING API TOKEN BURN</text>
+    </g>
+
+    <!-- Pillar 2 -->
+    <g transform="translate(360, 42)">
+      <rect width="320" height="105" rx="6" fill="#1E293B" stroke="#475569"/>
+      <text x="15" y="25" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#38BDF8">Local GPU &amp; NPU Compute</text>
+      <text x="15" y="45" font-family="'JetBrainsMono NF', monospace" font-size="10.5" fill="#F1F5F9">16GB+ High-Bandwidth VRAM</text>
+      <text x="15" y="65" font-family="'Liberation Sans', sans-serif" font-size="11" fill="#94A3B8">Sub-50ms local LLM &amp; whisper voice processing. Fully functional during internet outages.</text>
+      <text x="15" y="90" font-family="'JetBrainsMono NF', monospace" font-size="10" font-weight="700" fill="#F59E0B">100% AIR-GAPPED PRIVACY</text>
+    </g>
+
+    <!-- Pillar 3 -->
+    <g transform="translate(700, 42)">
+      <rect width="320" height="105" rx="6" fill="#1E293B" stroke="#475569"/>
+      <text x="15" y="25" font-family="'Liberation Sans', sans-serif" font-size="13" font-weight="700" fill="#38BDF8">Grant &amp; Capital Financing</text>
+      <text x="15" y="45" font-family="'JetBrainsMono NF', monospace" font-size="10.5" fill="#F1F5F9">Perkins V &amp; Tech Cred Funding</text>
+      <text x="15" y="65" font-family="'Liberation Sans', sans-serif" font-size="11" fill="#94A3B8">Schools purchase physical iron via capital grants; TradeCraft OS licenses software pure margin.</text>
+      <text x="15" y="90" font-family="'JetBrainsMono NF', monospace" font-size="10" font-weight="700" fill="#F59E0B">ZERO INFRASTRUCTURE RISK</text>
+    </g>
+  </g>
+</svg>
